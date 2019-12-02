@@ -6,7 +6,7 @@ class EmailReminderMailer < ApplicationMailer
     mail(
       to: @user.email,
       subject: "#{team.name} gomi-tax-keeper Reminder!",
-      reply_to: reply_to
+      # reply_to: reply_to 
     )
   end
 end
