@@ -36,9 +36,10 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: bran
-  password: 30201rhd!
-  socket: /tmp/mysql.sock
+  username: root
+  # username: bran
+  # password: 30201rhd!
+  # socket: /tmp/mysql.sock
 
 development:
   <<: *default
